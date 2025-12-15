@@ -34,28 +34,28 @@ let bg;
 
 function preload() {
     // Load Background
-    this.load.image('bg', './assets/bg/1-30.png');
+    this.load.image('bg', 'assets/bg/1-30.png');
 
     // Load Biker Sprites
-    this.load.spritesheet('biker_run', './assets/sprites/biker/Biker_run.png', { frameWidth: 48, frameHeight: 48 });
-    this.load.spritesheet('biker_jump', './assets/sprites/biker/Biker_jump.png', { frameWidth: 48, frameHeight: 48 });
-    this.load.spritesheet('biker_doublejump', './assets/sprites/biker/Biker_doublejump.png', { frameWidth: 48, frameHeight: 48 });
-    this.load.spritesheet('biker_idle', './assets/sprites/biker/Biker_idle.png', { frameWidth: 48, frameHeight: 48 });
-    this.load.spritesheet('biker_attack', './assets/sprites/biker/Biker_run_attack.png', { frameWidth: 48, frameHeight: 48 });
-    this.load.spritesheet('biker_punch', './assets/sprites/biker/Biker_punch.png', { frameWidth: 48, frameHeight: 48 });
-    this.load.spritesheet('biker_kick', './assets/sprites/biker/Biker_attack3.png', { frameWidth: 48, frameHeight: 48 });
+    this.load.spritesheet('biker_run', 'assets/sprites/biker/Biker_run.png', { frameWidth: 48, frameHeight: 48 });
+    this.load.spritesheet('biker_jump', 'assets/sprites/biker/Biker_jump.png', { frameWidth: 48, frameHeight: 48 });
+    this.load.spritesheet('biker_doublejump', 'assets/sprites/biker/Biker_doublejump.png', { frameWidth: 48, frameHeight: 48 });
+    this.load.spritesheet('biker_idle', 'assets/sprites/biker/Biker_idle.png', { frameWidth: 48, frameHeight: 48 });
+    this.load.spritesheet('biker_attack', 'assets/sprites/biker/Biker_run_attack.png', { frameWidth: 48, frameHeight: 48 });
+    this.load.spritesheet('biker_punch', 'assets/sprites/biker/Biker_punch.png', { frameWidth: 48, frameHeight: 48 });
+    this.load.spritesheet('biker_kick', 'assets/sprites/biker/Biker_attack3.png', { frameWidth: 48, frameHeight: 48 });
     
     // Load Cyborg (Enemy)
-    this.load.spritesheet('cyborg_run', './assets/sprites/cyborg/Cyborg_run.png', { frameWidth: 48, frameHeight: 48 });
+    this.load.spritesheet('cyborg_run', 'assets/sprites/cyborg/Cyborg_run.png', { frameWidth: 48, frameHeight: 48 });
 
     // Load Punk (Flying Enemy)
-    this.load.spritesheet('punk_doublejump', './assets/sprites/punk/Punk_doublejump.png', { frameWidth: 48, frameHeight: 48 });
+    this.load.spritesheet('punk_doublejump', 'assets/sprites/punk/Punk_doublejump.png', { frameWidth: 48, frameHeight: 48 });
 
     // Load Sounds (Switched to cleaner beeps/clicks)
-    this.load.audio('jump', './assets/sounds/zapsplat_science_fiction_cyberpunk_electronics_beep_002_61683.mp3');
-    this.load.audio('attack', './assets/sounds/zapsplat_science_fiction_cyberpunk_computer_equipment_or_machine_clicks_61358.mp3');
-    this.load.audio('kill', './assets/sounds/zapsplat_science_fiction_cyberpunk_electronics_beep_003_61684.mp3');
-    this.load.audio('gameover', './assets/sounds/zapsplat_science_fiction_cyberpunk_electronics_beep_001_61682.mp3');
+    this.load.audio('jump', 'assets/sounds/zapsplat_science_fiction_cyberpunk_electronics_beep_002_61683.mp3');
+    this.load.audio('attack', 'assets/sounds/zapsplat_science_fiction_cyberpunk_computer_equipment_or_machine_clicks_61358.mp3');
+    this.load.audio('kill', 'assets/sounds/zapsplat_science_fiction_cyberpunk_electronics_beep_003_61684.mp3');
+    this.load.audio('gameover', 'assets/sounds/zapsplat_science_fiction_cyberpunk_electronics_beep_001_61682.mp3');
 }
 
 function create() {
